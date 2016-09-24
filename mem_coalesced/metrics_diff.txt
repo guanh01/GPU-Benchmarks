@@ -1,0 +1,212 @@
+---------------
+achieved_occupancy ( Achieved Occupancy):  Ratio of the average active warps per active cycle to the maximum number of warps supported on a multiprocessor
+	 No optimize: ['0.772224', '0.772224', '0.772224']
+	 with optimi: ['0.793092', '0.793092', '0.793092']
+---------------
+alu_fu_utilization ( Arithmetic Function Unit Utilization):  The utilization level of the multiprocessor function units that execute integer and floating-point arithmetic instructions
+	 No optimize: ['Low (2)', 'Low (2)', 'Low (2)']
+	 with optimi: ['Mid (5)', 'Mid (5)', 'Mid (5)']
+---------------
+dram_read_throughput ( Device Memory Read Throughput):  Device memory read throughput
+	 No optimize: ['40.652GB/s', '40.652GB/s', '40.652GB/s']
+	 with optimi: ['72.054GB/s', '72.054GB/s', '72.054GB/s']
+---------------
+dram_read_transactions ( Device Memory Read Transactions):  Device memory read transactions
+	 No optimize: ['4604573', '4604573', '4604573']
+	 with optimi: ['3229328', '3229328', '3229328']
+---------------
+dram_utilization ( Device Memory Utilization):  The utilization level of the device memory relative to the peak utilization
+	 No optimize: ['Mid (5)', 'Mid (5)', 'Mid (5)']
+	 with optimi: ['High (8)', 'High (8)', 'High (8)']
+---------------
+dram_write_throughput ( Device Memory Write Throughput):  Device memory write throughput
+	 No optimize: ['44.419GB/s', '44.419GB/s', '44.419GB/s']
+	 with optimi: ['64.679GB/s', '64.679GB/s', '64.679GB/s']
+---------------
+dram_write_transactions ( Device Memory Write Transactions):  Device memory write transactions
+	 No optimize: ['5031279', '5031279', '5031279']
+	 with optimi: ['2898794', '2898794', '2898794']
+---------------
+ecc_throughput ( ECC Throughput):  ECC throughput from L2 to DRAM
+	 No optimize: ['31.544GB/s', '31.544GB/s', '31.544GB/s']
+	 with optimi: ['27.020GB/s', '27.020GB/s', '27.020GB/s']
+---------------
+ecc_transactions ( ECC Transactions):  Number of ECC transactions between L2 and DRAM
+	 No optimize: ['3572971', '3572971', '3572971']
+	 with optimi: ['1211004', '1211004', '1211004']
+---------------
+eligible_warps_per_cycle ( Eligible Warps Per Active Cycle):  Average number of warps that are eligible to issue per active cycle
+	 No optimize: ['5.525320', '5.525320', '5.525320']
+	 with optimi: ['3.778911', '3.778911', '3.778911']
+---------------
+gld_requested_throughput ( Requested Global Load Throughput):  Requested global memory load throughput
+	 No optimize: ['21.697GB/s', '21.697GB/s', '21.697GB/s']
+	 with optimi: ['54.835GB/s', '54.835GB/s', '54.835GB/s']
+---------------
+gld_throughput ( Global Load Throughput):  Global memory load throughput
+	 No optimize: ['21.697GB/s', '21.697GB/s', '21.697GB/s']
+	 with optimi: ['54.835GB/s', '54.835GB/s', '54.835GB/s']
+---------------
+global_replay_overhead ( Global Memory Replay Overhead):  Average number of replays due to global memory cache misses for each instruction executed
+	 No optimize: ['0.761905', '0.761905', '0.761905']
+	 with optimi: ['0.041667', '0.041667', '0.041667']
+---------------
+gst_efficiency ( Global Memory Store Efficiency):  Ratio of requested global memory load throughput to required global memory load throughput.
+	 No optimize: ['25.00%', '25.00%', '25.00%']
+	 with optimi: ['0.00%', '0.00%', '0.00%']
+---------------
+gst_requested_throughput ( Requested Global Store Throughput):  Requested global memory store throughput
+	 No optimize: ['21.697GB/s', '21.697GB/s', '21.697GB/s']
+	 with optimi: ['0.00000B/s', '0.00000B/s', '0.00000B/s']
+---------------
+gst_throughput ( Global Store Throughput):  Global memory store throughput
+	 No optimize: ['86.788GB/s', '86.788GB/s', '86.788GB/s']
+	 with optimi: ['0.00000B/s', '0.00000B/s', '0.00000B/s']
+---------------
+gst_transactions ( Global Store Transactions):  Number of surface and global memory store transactions
+	 No optimize: ['9830400', '9830400', '9830400']
+	 with optimi: ['2457600', '2457600', '2457600']
+---------------
+gst_transactions_per_request ( Global Store Transactions Per Request):  Average number of global memory store transactions performed for each global memory store. The metric can give higher values than expected if the code has surface stores
+	 No optimize: ['16.000000', '16.000000', '16.000000']
+	 with optimi: ['0.000000', '0.000000', '0.000000']
+---------------
+inst_compute_ld_st ( Load/Store Instructions):  Number of compute load/store instructions executed by non-predicated threads
+	 No optimize: ['39321600', '39321600', '39321600']
+	 with optimi: ['117964800', '117964800', '117964800']
+---------------
+inst_executed ( Instructions Executed):  The number of instructions executed
+	 No optimize: ['12902400', '12902400', '12902400']
+	 with optimi: ['14745600', '14745600', '14745600']
+---------------
+inst_integer ( Integer Instructions):  Number of integer instructions executed by non-predicated threads
+	 No optimize: ['196608000', '196608000', '196608000']
+	 with optimi: ['176947200', '176947200', '176947200']
+---------------
+inst_issued ( Instructions Issued):  The number of instructions issued
+	 No optimize: ['36491628', '36491628', '36491628']
+	 with optimi: ['18435858', '18435858', '18435858']
+---------------
+inst_per_warp ( Instructions per warp):  Average number of instructions executed by each warp
+	 No optimize: ['21.000000', '21.000000', '21.000000']
+	 with optimi: ['24.000000', '24.000000', '24.000000']
+---------------
+inst_replay_overhead ( Instruction Replay Overhead):  Average number of replays for each instruction executed
+	 No optimize: ['1.829583', '1.829583', '1.829583']
+	 with optimi: ['0.250227', '0.250227', '0.250227']
+---------------
+ipc ( Executed IPC):  Instructions executed per cycle
+	 No optimize: ['0.418817', '0.418817', '0.418817']
+	 with optimi: ['1.210294', '1.210294', '1.210294']
+---------------
+ipc_instance ( Executed IPC):  Instructions executed per cycle for a single multiprocessor
+	 No optimize: ['0.418817', '0.418817', '0.418817']
+	 with optimi: ['1.210294', '1.210294', '1.210294']
+---------------
+issue_slot_utilization ( Issue Slot Utilization):  Percentage of issue slots that issued at least one instruction, averaged across all cycles
+	 No optimize: ['27.94%', '27.94%', '27.94%']
+	 with optimi: ['33.86%', '33.86%', '33.86%']
+---------------
+issue_slots ( Issue Slots):  The number of issue slots used
+	 No optimize: ['34648428', '34648428', '34648428']
+	 with optimi: ['16592658', '16592658', '16592658']
+---------------
+issued_ipc ( Issued IPC):  Instructions issued per cycle
+	 No optimize: ['1.177057', '1.177057', '1.177057']
+	 with optimi: ['1.504916', '1.504916', '1.504916']
+---------------
+l2_l1_read_throughput ( L2 Throughput (L1 Reads)):  Memory read throughput seen at L2 cache for read requests from L1 cache
+	 No optimize: ['21.697GB/s', '21.697GB/s', '21.697GB/s']
+	 with optimi: ['54.835GB/s', '54.835GB/s', '54.835GB/s']
+---------------
+l2_l1_write_throughput ( L2 Throughput (L1 Writes)):  Memory write throughput seen at L2 cache for write requests from L1 cache
+	 No optimize: ['86.806GB/s', '86.806GB/s', '86.806GB/s']
+	 with optimi: ['109.67GB/s', '109.67GB/s', '109.67GB/s']
+---------------
+l2_l1_write_transactions ( L2 Write Transactions (L1 write requests):  Memory write transactions seen at L2 cache for all write requests from L1 cache
+	 No optimize: ['9832448', '9832448', '9832448']
+	 with optimi: ['4915200', '4915200', '4915200']
+---------------
+l2_read_throughput ( L2 Throughput (Reads)):  Memory read throughput seen at L2 cache for all read requests
+	 No optimize: ['21.703GB/s', '21.703GB/s', '21.703GB/s']
+	 with optimi: ['54.848GB/s', '54.848GB/s', '54.848GB/s']
+---------------
+l2_read_transactions ( L2 Read Transactions):  Memory read transactions seen at L2 cache for all read requests
+	 No optimize: ['2458287', '2458287', '2458287']
+	 with optimi: ['2458188', '2458188', '2458188']
+---------------
+l2_utilization ( L2 Cache Utilization):  The utilization level of the L2 cache relative to the peak utilization
+	 No optimize: ['Low (3)', 'Low (3)', 'Low (3)']
+	 with optimi: ['Mid (4)', 'Mid (4)', 'Mid (4)']
+---------------
+l2_write_throughput ( L2 Throughput (Writes)):  Memory write throughput seen at L2 cache for all write requests
+	 No optimize: ['89.385GB/s', '89.385GB/s', '89.385GB/s']
+	 with optimi: ['104.22GB/s', '104.22GB/s', '104.22GB/s']
+---------------
+l2_write_transactions ( L2 Write Transactions):  Memory write transactions seen at L2 cache for all write requests
+	 No optimize: ['10124565', '10124565', '10124565']
+	 with optimi: ['4671024', '4671024', '4671024']
+---------------
+ldst_fu_utilization ( Load/Store Function Unit Utilization):  The utilization level of the multiprocessor function units that execute global, local and shared memory instructions
+	 No optimize: ['High (8)', 'High (8)', 'High (8)']
+	 with optimi: ['Mid (4)', 'Mid (4)', 'Mid (4)']
+---------------
+ldst_issued ( Issued Load/Store Instructions):  Number of issued local, global, shared and texture memory load and store instructions
+	 No optimize: ['24106707', '24106707', '24106707']
+	 with optimi: ['4303097', '4303097', '4303097']
+---------------
+local_memory_overhead ( Local Memory Overhead):  Ratio of local memory traffic to total memory traffic between the L1 and L2 caches
+	 No optimize: ['0.02%', '0.02%', '0.02%']
+	 with optimi: ['66.67%', '66.67%', '66.67%']
+---------------
+sm_efficiency ( Multiprocessor Activity):  The percentage of time at least one warp is active on a multiprocessor averaged over all multiprocessors on the GPU
+	 No optimize: ['99.79%', '99.79%', '99.79%']
+	 with optimi: ['99.60%', '99.60%', '99.60%']
+---------------
+sm_efficiency_instance ( Multiprocessor Activity):  The percentage of time at least one warp is active on a multiprocessor
+	 No optimize: ['99.79%', '99.79%', '99.79%']
+	 with optimi: ['99.60%', '99.60%', '99.60%']
+---------------
+stall_exec_dependency ( Issue Stall Reasons (Execution Dependenc):  Percentage of stalls occurring because an input required by the instruction is not yet available
+	 No optimize: ['9.73%', '9.73%', '9.73%']
+	 with optimi: ['20.45%', '20.45%', '20.45%']
+---------------
+stall_inst_fetch ( Issue Stall Reasons (Instructions Fetch)):  Percentage of stalls occurring because the next assembly instruction has not yet been fetched
+	 No optimize: ['1.32%', '1.32%', '1.32%']
+	 with optimi: ['3.42%', '3.42%', '3.42%']
+---------------
+stall_memory_dependency ( Issue Stall Reasons (Data Request)):  Percentage of stalls occurring because a memory operation cannot be performed due to the required resources not being available or fully utilized, or because too many requests of a given type are outstanding
+	 No optimize: ['41.51%', '41.51%', '41.51%']
+	 with optimi: ['56.30%', '56.30%', '56.30%']
+---------------
+stall_memory_throttle ( Issue Stall Reasons (Memory Throttle)):  Percentage of stalls occurring because of memory throttle
+	 No optimize: ['4.59%', '4.59%', '4.59%']
+	 with optimi: ['3.34%', '3.34%', '3.34%']
+---------------
+stall_not_selected ( Issue Stall Reasons (Not Selected)):  Percentage of stalls occurring because warp was not selected
+	 No optimize: ['12.22%', '12.22%', '12.22%']
+	 with optimi: ['5.65%', '5.65%', '5.65%']
+---------------
+stall_other ( Issue Stall Reasons (Other)):  Percentage of stalls occurring due to miscellaneous reasons
+	 No optimize: ['0.69%', '0.69%', '0.69%']
+	 with optimi: ['2.03%', '2.03%', '2.03%']
+---------------
+stall_pipe_busy ( Issue Stall Reasons (Pipe Busy)):  Percentage of stalls occurring because a compute operation cannot be performed because the compute pipeline is busy
+	 No optimize: ['29.94%', '29.94%', '29.94%']
+	 with optimi: ['8.77%', '8.77%', '8.77%']
+---------------
+sysmem_utilization ( System Memory Utilization):  The utilization level of the system memory relative to the peak utilization
+	 No optimize: ['Low (1)', 'Low (1)', 'Low (1)']
+	 with optimi: ['Idle (0)', 'Idle (0)', 'Idle (0)']
+---------------
+sysmem_write_throughput ( System Memory Write Throughput):  System memory write throughput
+	 No optimize: ['55.544KB/s', '55.544KB/s', '55.544KB/s']
+	 with optimi: ['0.00000B/s', '0.00000B/s', '0.00000B/s']
+---------------
+sysmem_write_transactions ( System Memory Write Transactions):  Number of system memory write transactions
+	 No optimize: ['6', '6', '6']
+	 with optimi: ['0', '0', '0']
+---------------
+warp_nonpred_execution_efficiency ( Warp Non-Predicated Execution Efficiency):  Ratio of the average active threads per warp executing non-predicated instructions to the maximum number of threads per warp supported on a multiprocessor
+	 No optimize: ['95.24%', '95.24%', '95.24%']
+	 with optimi: ['95.83%', '95.83%', '95.83%']

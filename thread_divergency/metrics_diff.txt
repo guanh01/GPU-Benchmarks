@@ -1,0 +1,300 @@
+---------------
+atomic_replay_overhead ( Atomic Replay Overhead):  Average number of replays due to atomic and reduction bank conflicts for each instruction executed
+	 No optimize: ['0.002428', '0.002428', '0.002428']
+	 with optimi: ['0.003183', '0.003183', '0.003183']
+---------------
+atomic_throughput ( Atomic Throughput):  Global memory atomic and reduction throughput
+	 No optimize: ['1.5431GB/s', '1.5431GB/s', '1.5431GB/s']
+	 with optimi: ['1.9641GB/s', '1.9641GB/s', '1.9641GB/s']
+---------------
+atomic_transactions ( Atomic Transactions):  Global memory atomic and reduction transactions
+	 No optimize: ['136324092', '136324092', '136324092']
+	 with optimi: ['73052349', '73052349', '73052349']
+---------------
+atomic_transactions_per_request ( Atomic Transactions Per Request):  Average number of global memory atomic and reduction transactions performed for each atomic and reduction instruction
+	 No optimize: ['6.538002', '6.538002', '6.538002']
+	 with optimi: ['6.675539', '6.675539', '6.675539']
+---------------
+cf_executed ( Executed Control-Flow Instructions):  Number of executed control-flow instructions
+	 No optimize: ['1.2941e+10', '1.2941e+10', '1.2941e+10']
+	 with optimi: ['5248768884', '5248768884', '5248768884']
+---------------
+cf_issued ( Issued Control-Flow Instructions):  Number of issued control-flow instructions
+	 No optimize: ['1.3174e+10', '1.3174e+10', '1.3174e+10']
+	 with optimi: ['5347363435', '5347363435', '5347363435']
+---------------
+dram_read_throughput ( Device Memory Read Throughput):  Device memory read throughput
+	 No optimize: ['76.668GB/s', '76.668GB/s', '76.668GB/s']
+	 with optimi: ['75.558GB/s', '75.558GB/s', '75.558GB/s']
+---------------
+dram_read_transactions ( Device Memory Read Transactions):  Device memory read transactions
+	 No optimize: ['2.7093e+10', '2.7093e+10', '2.7093e+10']
+	 with optimi: ['1.1241e+10', '1.1241e+10', '1.1241e+10']
+---------------
+dram_write_throughput ( Device Memory Write Throughput):  Device memory write throughput
+	 No optimize: ['20.948GB/s', '20.948GB/s', '20.948GB/s']
+	 with optimi: ['22.697GB/s', '22.697GB/s', '22.697GB/s']
+---------------
+dram_write_transactions ( Device Memory Write Transactions):  Device memory write transactions
+	 No optimize: ['7402685814', '7402685814', '7402685814']
+	 with optimi: ['3376682165', '3376682165', '3376682165']
+---------------
+ecc_throughput ( ECC Throughput):  ECC throughput from L2 to DRAM
+	 No optimize: ['20.181GB/s', '20.181GB/s', '20.181GB/s']
+	 with optimi: ['20.400GB/s', '20.400GB/s', '20.400GB/s']
+---------------
+ecc_transactions ( ECC Transactions):  Number of ECC transactions between L2 and DRAM
+	 No optimize: ['7131498027', '7131498027', '7131498027']
+	 with optimi: ['3034908541', '3034908541', '3034908541']
+---------------
+flop_count_sp ( Floating Point Operations(Single Precisi):  Number of single-precision floating-point operations executed by non-predicated threads (add, multiply, multiply-accumulate and special)
+	 No optimize: ['2686372968', '2686372968', '2686372968']
+	 with optimi: ['2684498532', '2684498532', '2684498532']
+---------------
+flop_count_sp_add ( Floating Point Operations(Single Precisi):  Number of single-precision floating-point add operations executed by non-predicated threads
+	 No optimize: ['750721140', '750721140', '750721140']
+	 with optimi: ['750230954', '750230954', '750230954']
+---------------
+flop_count_sp_fma ( Floating Point Operations(Single Precisi):  Number of single-precision floating-point multiply-accumulate operations executed by non-predicated threads
+	 No optimize: ['840335892', '840335892', '840335892']
+	 with optimi: ['839742642', '839742642', '839742642']
+---------------
+flop_count_sp_mul ( Floating Point Operation(Single Precisio):  Number of single-precision floating-point multiply operations executed by non-predicated threads
+	 No optimize: ['254980044', '254980044', '254980044']
+	 with optimi: ['254782294', '254782294', '254782294']
+---------------
+flop_count_sp_special ( Floating Point Operations(Single Precisi):  Number of single-precision floating-point special operations executed by non-predicated threads
+	 No optimize: ['127490022', '127490022', '127490022']
+	 with optimi: ['127391147', '127391147', '127391147']
+---------------
+gld_efficiency ( Global Memory Load Efficiency):  Ratio of requested global memory load throughput to required global memory load throughput. If the code has surface loads then the metric will report lower values than actual efficiency
+	 No optimize: ['37.74%', '37.74%', '37.74%']
+	 with optimi: ['53.00%', '53.00%', '53.00%']
+---------------
+gld_requested_throughput ( Requested Global Load Throughput):  Requested global memory load throughput
+	 No optimize: ['299.49MB/s', '299.49MB/s', '299.49MB/s']
+	 with optimi: ['543.76MB/s', '543.76MB/s', '543.76MB/s']
+---------------
+gld_throughput ( Global Load Throughput):  Global memory load throughput
+	 No optimize: ['793.57MB/s', '793.57MB/s', '793.57MB/s']
+	 with optimi: ['1.0020GB/s', '1.0020GB/s', '1.0020GB/s']
+---------------
+gld_transactions ( Global Load Transactions):  Number of surface and global memory load transactions
+	 No optimize: ['220462223', '220462223', '220462223']
+	 with optimi: ['118489383', '118489383', '118489383']
+---------------
+gld_transactions_per_request ( Global Load Transactions Per Request):  Average number of global memory load transactions performed for each global memory load. The metric can give higher values than expected if the code has surface loads
+	 No optimize: ['2.443279', '2.443279', '2.443279']
+	 with optimi: ['3.229478', '3.229478', '3.229478']
+---------------
+global_replay_overhead ( Global Memory Replay Overhead):  Average number of replays due to global memory cache misses for each instruction executed
+	 No optimize: ['0.007997', '0.007997', '0.007997']
+	 with optimi: ['0.015915', '0.015915', '0.015915']
+---------------
+gst_requested_throughput ( Requested Global Store Throughput):  Requested global memory store throughput
+	 No optimize: ['21.017MB/s', '21.017MB/s', '21.017MB/s']
+	 with optimi: ['49.921MB/s', '49.921MB/s', '49.921MB/s']
+---------------
+gst_throughput ( Global Store Throughput):  Global memory store throughput
+	 No optimize: ['672.53MB/s', '672.53MB/s', '672.53MB/s']
+	 with optimi: ['1.5600GB/s', '1.5600GB/s', '1.5600GB/s']
+---------------
+inst_bit_convert ( Bit-Convert Instructions):  Number of bit-conversion instructions executed by non-predicated threads
+	 No optimize: ['127490022', '127490022', '127490022']
+	 with optimi: ['127391147', '127391147', '127391147']
+---------------
+inst_compute_ld_st ( Load/Store Instructions):  Number of compute load/store instructions executed by non-predicated threads
+	 No optimize: ['3.8889e+10', '3.8889e+10', '3.8889e+10']
+	 with optimi: ['3.8800e+10', '3.8800e+10', '3.8800e+10']
+---------------
+inst_control ( Control-Flow Instructions):  Number of control-flow instructions executed by non-predicated threads (jump, branch, etc.)
+	 No optimize: ['2.7713e+10', '2.7713e+10', '2.7713e+10']
+	 with optimi: ['2.7625e+10', '2.7625e+10', '2.7625e+10']
+---------------
+inst_executed ( Instructions Executed):  The number of instructions executed
+	 No optimize: ['4.7566e+10', '4.7566e+10', '4.7566e+10']
+	 with optimi: ['1.9515e+10', '1.9515e+10', '1.9515e+10']
+---------------
+inst_fp_32 ( FP Instructions(Single)):  Number of single-precision floating-point instructions executed by non-predicated threads (arithmetric, compare, etc.)
+	 No optimize: ['2.5408e+10', '2.5408e+10', '2.5408e+10']
+	 with optimi: ['2.5387e+10', '2.5387e+10', '2.5387e+10']
+---------------
+inst_integer ( Integer Instructions):  Number of integer instructions executed by non-predicated threads
+	 No optimize: ['8.4934e+10', '8.4934e+10', '8.4934e+10']
+	 with optimi: ['8.5277e+10', '8.5277e+10', '8.5277e+10']
+---------------
+inst_inter_thread_communication ( Inter-Thread Instructions):  Number of inter-thread communication instructions executed by non-predicated threads
+	 No optimize: ['199754482', '199754482', '199754482']
+	 with optimi: ['536574967', '536574967', '536574967']
+---------------
+inst_issued ( Instructions Issued):  The number of instructions issued
+	 No optimize: ['5.8358e+10', '5.8358e+10', '5.8358e+10']
+	 with optimi: ['2.4109e+10', '2.4109e+10', '2.4109e+10']
+---------------
+inst_misc ( Misc Instructions):  Number of miscellaneous instructions executed by non-predicated threads
+	 No optimize: ['5.1275e+10', '5.1275e+10', '5.1275e+10']
+	 with optimi: ['5.1302e+10', '5.1302e+10', '5.1302e+10']
+---------------
+inst_per_warp ( Instructions per warp):  Average number of instructions executed by each warp
+	 No optimize: ['1.0486e+07', '1.0486e+07', '1.0486e+07']
+	 with optimi: ['4.3022e+06', '4.3022e+06', '4.3022e+06']
+---------------
+inst_replay_overhead ( Instruction Replay Overhead):  Average number of replays for each instruction executed
+	 No optimize: ['0.226897', '0.226897', '0.226897']
+	 with optimi: ['0.235423', '0.235423', '0.235423']
+---------------
+issue_slots ( Issue Slots):  The number of issue slots used
+	 No optimize: ['3.9210e+10', '3.9210e+10', '3.9210e+10']
+	 with optimi: ['1.7942e+10', '1.7942e+10', '1.7942e+10']
+---------------
+l1_cache_local_hit_rate ( L1 Local Hit Rate):  Hit rate in L1 cache for local loads and stores
+	 No optimize: ['19.83%', '19.83%', '19.83%']
+	 with optimi: ['20.50%', '20.50%', '20.50%']
+---------------
+l2_atomic_throughput ( L2 Throughput (Atomic requests)):  Memory read throughput seen at L2 cache for atomic and reduction requests
+	 No optimize: ['394.06MB/s', '394.06MB/s', '394.06MB/s']
+	 with optimi: ['486.02MB/s', '486.02MB/s', '486.02MB/s']
+---------------
+l2_atomic_transactions ( L2 Transactions (Atomic requests)):  Memory read transactions seen at L2 cache for atomic and reduction requests
+	 No optimize: ['271979410', '271979410', '271979410']
+	 with optimi: ['141225408', '141225408', '141225408']
+---------------
+l2_l1_read_hit_rate ( L2 Hit Rate (L1 Reads)):  Hit rate at L2 cache for all read requests from L1 cache
+	 No optimize: ['2.54%', '2.54%', '2.54%']
+	 with optimi: ['2.48%', '2.48%', '2.48%']
+---------------
+l2_l1_read_throughput ( L2 Throughput (L1 Reads)):  Memory read throughput seen at L2 cache for read requests from L1 cache
+	 No optimize: ['62.307GB/s', '62.307GB/s', '62.307GB/s']
+	 with optimi: ['61.212GB/s', '61.212GB/s', '61.212GB/s']
+---------------
+l2_l1_read_transactions ( L2 Read Transactions (L1 read requests)):  Memory read transactions seen at L2 cache for all read requests from L1 cache
+	 No optimize: ['2.2018e+10', '2.2018e+10', '2.2018e+10']
+	 with optimi: ['9106746453', '9106746453', '9106746453']
+---------------
+l2_l1_write_throughput ( L2 Throughput (L1 Writes)):  Memory write throughput seen at L2 cache for write requests from L1 cache
+	 No optimize: ['17.037GB/s', '17.037GB/s', '17.037GB/s']
+	 with optimi: ['19.395GB/s', '19.395GB/s', '19.395GB/s']
+---------------
+l2_l1_write_transactions ( L2 Write Transactions (L1 write requests):  Memory write transactions seen at L2 cache for all write requests from L1 cache
+	 No optimize: ['6020657328', '6020657328', '6020657328']
+	 with optimi: ['2885410564', '2885410564', '2885410564']
+---------------
+l2_read_throughput ( L2 Throughput (Reads)):  Memory read throughput seen at L2 cache for all read requests
+	 No optimize: ['62.817GB/s', '62.817GB/s', '62.817GB/s']
+	 with optimi: ['61.735GB/s', '61.735GB/s', '61.735GB/s']
+---------------
+l2_read_transactions ( L2 Read Transactions):  Memory read transactions seen at L2 cache for all read requests
+	 No optimize: ['2.2199e+10', '2.2199e+10', '2.2199e+10']
+	 with optimi: ['9184508688', '9184508688', '9184508688']
+---------------
+l2_tex_read_transactions ( L2 Transactions (Texture Reads)):  Memory read transactions seen at L2 cache for read requests from the texture cache
+	 No optimize: ['44769566', '44769566', '44769566']
+	 with optimi: ['6448049', '6448049', '6448049']
+---------------
+l2_texture_read_hit_rate ( L2 Hit Rate (Texture Reads)):  Hit rate at L2 cache for all read requests from texture cache
+	 No optimize: ['2.06%', '2.06%', '2.06%']
+	 with optimi: ['2.42%', '2.42%', '2.42%']
+---------------
+l2_texture_read_throughput ( L2 Throughput (Texture Reads)):  Memory read throughput seen at L2 cache for read requests from the texture cache
+	 No optimize: ['129.73MB/s', '129.73MB/s', '129.73MB/s']
+	 with optimi: ['44.382MB/s', '44.382MB/s', '44.382MB/s']
+---------------
+l2_write_throughput ( L2 Throughput (Writes)):  Memory write throughput seen at L2 cache for all write requests
+	 No optimize: ['17.580GB/s', '17.580GB/s', '17.580GB/s']
+	 with optimi: ['20.139GB/s', '20.139GB/s', '20.139GB/s']
+---------------
+l2_write_transactions ( L2 Write Transactions):  Memory write transactions seen at L2 cache for all write requests
+	 No optimize: ['6212379867', '6212379867', '6212379867']
+	 with optimi: ['2996154436', '2996154436', '2996154436']
+---------------
+ldst_executed ( Executed Load/Store Instructions):  Number of executed local, global, shared and texture memory load and store instructions
+	 No optimize: ['7046048543', '7046048543', '7046048543']
+	 with optimi: ['2989153721', '2989153721', '2989153721']
+---------------
+ldst_issued ( Issued Load/Store Instructions):  Number of issued local, global, shared and texture memory load and store instructions
+	 No optimize: ['8763764992', '8763764992', '8763764992']
+	 with optimi: ['3893933294', '3893933294', '3893933294']
+---------------
+local_load_throughput ( Local Memory Load Throughput):  Local memory load throughput
+	 No optimize: ['61.699GB/s', '61.699GB/s', '61.699GB/s']
+	 with optimi: ['60.427GB/s', '60.427GB/s', '60.427GB/s']
+---------------
+local_load_transactions ( Local Load Transactions):  Number of local memory load transactions
+	 No optimize: ['5495636129', '5495636129', '5495636129']
+	 with optimi: ['2268507732', '2268507732', '2268507732']
+---------------
+local_load_transactions_per_request ( Local Memory Load Transactions Per Reque):  Average number of local memory load transactions performed for each local memory load
+	 No optimize: ['1.018278', '1.018278', '1.018278']
+	 with optimi: ['1.013000', '1.013000', '1.013000']
+---------------
+local_memory_overhead ( Local Memory Overhead):  Ratio of local memory traffic to total memory traffic between the L1 and L2 caches
+	 No optimize: ['98.20%', '98.20%', '98.20%']
+	 with optimi: ['96.82%', '96.82%', '96.82%']
+---------------
+local_replay_overhead ( Local Memory Cache Replay Overhead):  Average number of replays due to local memory accesses for each instruction executed
+	 No optimize: ['0.114286', '0.114286', '0.114286']
+	 with optimi: ['0.115491', '0.115491', '0.115491']
+---------------
+local_store_throughput ( Local Memory Store Throughput):  Local memory store throughput
+	 No optimize: ['16.607GB/s', '16.607GB/s', '16.607GB/s']
+	 with optimi: ['17.186GB/s', '17.186GB/s', '17.186GB/s']
+---------------
+local_store_transactions ( Local Store Transactions):  Number of local memory store transactions
+	 No optimize: ['1608892727', '1608892727', '1608892727']
+	 with optimi: ['719823369', '719823369', '719823369']
+---------------
+local_store_transactions_per_request ( Local Memory Store Transactions Per Requ):  Average number of local memory store transactions performed for each local memory store
+	 No optimize: ['1.065774', '1.065774', '1.065774']
+	 with optimi: ['1.067325', '1.067325', '1.067325']
+---------------
+nc_cache_global_hit_rate ( Non-Coherent Global Hit Rate):  Hit rate in non-coherent cache for global loads
+	 No optimize: ['47.62%', '47.62%', '47.62%']
+	 with optimi: ['86.67%', '86.67%', '86.67%']
+---------------
+nc_gld_efficiency ( Non-Coherent Global Load Efficiency):  Ratio of requested non-coherent global memory load throughput to required non-coherent global memory load throughput
+	 No optimize: ['86.47%', '86.47%', '86.47%']
+	 with optimi: ['151.57%', '151.57%', '151.57%']
+---------------
+nc_gld_requested_throughput ( Requested Non-Coherent Global Load Throu):  Requested throughput for global memory loaded via non-coherent cache
+	 No optimize: ['212.02MB/s', '212.02MB/s', '212.02MB/s']
+	 with optimi: ['503.28MB/s', '503.28MB/s', '503.28MB/s']
+---------------
+nc_gld_throughput ( Non-Coherent Global Memory Load Throughp):  Non-coherent global memory load throughput
+	 No optimize: ['245.19MB/s', '245.19MB/s', '245.19MB/s']
+	 with optimi: ['332.06MB/s', '332.06MB/s', '332.06MB/s']
+---------------
+nc_l2_read_throughput ( L2 Throughput (Non-Coherent Reads)):  Memory read throughput for non-coherent global read requests seen at L2 cache
+	 No optimize: ['128.43MB/s', '128.43MB/s', '128.43MB/s']
+	 with optimi: ['44.262MB/s', '44.262MB/s', '44.262MB/s']
+---------------
+nc_l2_read_transactions ( L2 Non-Coherent Read Transactions):  Memory read transactions seen at L2 cache for non-coherent global read requests
+	 No optimize: ['44322416', '44322416', '44322416']
+	 with optimi: ['6430662', '6430662', '6430662']
+---------------
+sysmem_write_throughput ( System Memory Write Throughput):  System memory write throughput
+	 No optimize: ['15.0000B/s', '15.0000B/s', '15.0000B/s']
+	 with optimi: ['7.00000B/s', '7.00000B/s', '7.00000B/s']
+---------------
+sysmem_write_transactions ( System Memory Write Transactions):  Number of system memory write transactions
+	 No optimize: ['5', '5', '5']
+	 with optimi: ['1', '1', '1']
+---------------
+tex_cache_hit_rate ( Texture Cache Hit Rate):  Texture cache hit rate
+	 No optimize: ['46.71%', '46.71%', '46.71%']
+	 with optimi: ['86.58%', '86.58%', '86.58%']
+---------------
+tex_cache_throughput ( Texture Cache Throughput):  Texture cache throughput
+	 No optimize: ['367.26MB/s', '367.26MB/s', '367.26MB/s']
+	 with optimi: ['661.83MB/s', '661.83MB/s', '661.83MB/s']
+---------------
+tex_cache_transactions ( Texture Cache Transactions):  Texture cache read transactions
+	 No optimize: ['126741764', '126741764', '126741764']
+	 with optimi: ['96154954', '96154954', '96154954']
+---------------
+warp_execution_efficiency ( Warp Execution Efficiency):  Ratio of the average active threads per warp to the maximum number of threads per warp supported on a multiprocessor
+	 No optimize: ['18.13%', '18.13%', '18.13%']
+	 with optimi: ['44.31%', '44.31%', '44.31%']
+---------------
+warp_nonpred_execution_efficiency ( Warp Non-Predicated Execution Efficiency):  Ratio of the average active threads per warp executing non-predicated instructions to the maximum number of threads per warp supported on a multiprocessor
+	 No optimize: ['15.05%', '15.05%', '15.05%']
+	 with optimi: ['36.77%', '36.77%', '36.77%']
